@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cz">
+
+<head>
+	<title>Company name - title</title>
+
+	<meta http-equiv="Content-language" content="cs">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content=" ">
+	<meta name="keywords" content=" ">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta name="author" content="Klára Frolichová, Sunlight webdesign">
+	<meta name="Copyright" content="Klára Frolichová, Sunlight webdesign 2007">
+	<meta name="design" content="Sunlight webdesign - http://www.sunlight.cz, info@sunlight.cz">
+	<link rel="stylesheet" type="text/css" href="default.css" title="default">
+	<script>
+		var ind = 0;
+		function abc() {
+			var arr = new Array("usepics/neck.jpg", "usepics/ban7.jpg", "usepics/ban5.jpg", "usepics/ban1.jpg", "usepics/akkriti-banner.jpg");
+			
+			
+			document.getElementById("banner-img").src = arr[ind];
+			
+			ind = ind + 1;
+			
+			if (ind == 5) {
+				ind = 0;
+			}
+		}
+		setInterval("abc()", 3000);
+	</script>
+
+
+
+	<link type="text/css" rel="stylesheet" href="css/materialize.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/krushn.css">
+
+
+
+</head>
+
+
+<body>
+	<div class="container full-width">
+
+
+		<div class="container">
+
+			<div class="row center">
+
+				<div id="Name">
+					<span class="blue-text">F</span><span>ashion</span>&nbsp;<span class="blue-text">S</span><span>hop</span>
+				</div>
+				<div id="Informations">Latest trends in Fashion</div>
+			</div>
+
+
+
+			<div class="row">
+
+				<nav>
+					<div class="nav-wrapper green lighten-1">
+						<ul class="left">
+							<li class="waves-effect"><a href="register.html">Registration</a></li>
+							<li class="waves-effect"><a href="login.html">Login</a></li>
+						</ul>
+
+						<ul class="right">
+							<li class="waves-effect"><a href="?page=home">KART</a></li>
+							<li class="waves-effect"><a href="index.php?con=1">CONTACT</a></li>
+							<li class="waves-effect"><a href="index.php?con=3">GALLERY</a></li>
+							<li class="waves-effect"><a href="index.php?con=2">ABOUT US</a></li>
+							<li class="waves-effect"><a href="?page=home">HOME</a></li>
+						</ul>
+					</div>
+				</nav>
+
+			</div>
+
+
+
+
+
+			<div>
+				<div class="row">
+
+					<div class="col s12">
+						<h3>Product Name</h3>
+					</div>
+          
+          </div>
+          <div class="row">
+					<div class="col s8">
+						<div class="card blue-grey darken-1">
+							<div class="card-image">
+								<img src="photos/image2.jpeg">
+								<span class="card-title">Women</span>
+							</div>
+							<div class="card-action hoverable waves-effect waves-light">
+								<a class="full-width" href="women1.html">Go to Women's Section</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card blue-grey darken-1">
+							<div class="card-image">
+								<img src="photos/image35.jpeg">
+								<span class="card-title">Kids</span>
+							</div>
+							<div class="card-action hoverable waves-effect waves-light">
+								<a class="full-width" href="kids1.html">Go to Kids' Section</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+
+
+			<div>
+				<div class="blue lighten-3 center">
+					<h3 style="color:#FFFF99">30%off on all summer wear...Hurry!!!</h3>
+					<h4 style="color:#00CC99">Enjoy the pleasure of shopping with Fashion Shop...</h4>
+				</div>
+				<img src="usepics/akkriti-banner.jpg" id="banner-img" width="100%" height="auto" />
+			</div>
+
+
+		</div>
+
+		<div>
+			<p class="center">Copyright © R S Fashion , Design by: Amazing Angels</p>
+		</div>
+
+	</div>
+</body>
+
+</html>
