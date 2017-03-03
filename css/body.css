@@ -1,0 +1,178 @@
+.body-part {
+	background: #ffe4e1;
+	margin: 0;
+}
+
+.body-image {
+	width: 100%;
+}
+
+.body-head {
+	height: 60px;
+	width: 50px;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+	margin: 0 auto;
+	
+}
+
+.body-neck {
+	height: 20px;
+	width: 30px;
+	background: #fde2de;
+	margin: 0 auto;
+	margin-top: -5px;
+	
+}
+
+.body-section {
+	margin: 0 auto;
+}
+
+.body-middle {
+	width: 155px;
+	
+}
+
+.body-hand {
+	height: 135px;
+	width: 20px;
+	display: inline-block;
+	margin: 0;
+}
+
+
+.body-torso {
+	background: transparent;
+	display: inline-block;
+	
+}
+
+
+.body-torso div {
+	background: red;
+}
+
+
+
+.body-torso-bust {
+	height: 50px;
+	width: 100px;
+	
+	margin: 0 auto;
+	
+}
+/*
+.body-torso-bust-right {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.body-torso-bust-left {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	display: inline-block;
+}
+*/
+
+
+.body-belly {
+	height: 50px;
+	width: 75px;
+	
+	margin: 0 auto;
+	
+	/*animation: fatty 2.5s infinite alternate;*/
+	
+}
+
+
+
+
+.body-waist {
+	height: 35px;
+	width: 105px;
+	
+	margin: 0 auto;
+	
+} 
+
+
+
+
+.body-bottom {
+	width: 75px;
+	
+}
+
+
+.body-leg {
+	display: inline-block;
+	height: 180px;
+	width: 35px;
+	background: midnightblue;
+	margin: 0 auto;
+	
+}
+
+@keyframes fatty {
+	0%{
+		width: 75px;
+	} 
+	100%{
+		width: 105px;
+	} 
+}
+
+
+
+
+
+
+
+
+.color-box-item {
+	display: inline-block;
+}
+
+.color-box-item.spacer {
+	width: 40px;
+}
+
+.color-item {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.color-item:hover {
+	border: 2px solid brown;
+	
+}
+
+
+#dark-skin-color-item {
+	background: chocolate;
+}
+
+#medium-skin-color-item {
+	background: brown;
+}
+
+#light-skin-color-item{
+	background: wheat;
+}
+
+#white-skin-color-item{
+	background: white;
+}
+
+
